@@ -63,6 +63,7 @@ html {
     font-size: 10px;
 }
 
+    
 #particles-js{
     position: absolute;
     width: 100%;
@@ -141,6 +142,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-top: 6rem;
     margin-bottom: 1.8rem;
 }
+.partesuperior{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    }
 
 @media only screen and (max-width: 600px) {
     h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -1265,7 +1271,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #0101DF;
+    color: #0277bd;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2245,7 +2251,7 @@ html.no-csstransitions .home-content__main {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
     background-color:#e3e4e5 ;
-    color: #d1cbdb; 
+    color: #000000; 
     position: relative;
 }
 
@@ -2449,7 +2455,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #0101DF;
+    color: #0277bd;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2982,7 +2988,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: #3159ddd8;
+    color: #ff6163;
     position: relative;
 }
 
@@ -3018,7 +3024,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #0101DF;
+    background: rgb(223, 1, 68);
 }
 
 .s-contact .form-field label::after {
@@ -3029,7 +3035,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #0101DF;
+    border-right: 5px solid rgb(1, 223, 49);
 }
 
 .contact__line {
